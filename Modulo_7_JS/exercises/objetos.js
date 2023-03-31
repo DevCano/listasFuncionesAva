@@ -13,7 +13,7 @@ const friendsInfo = [
   {
   name: 'Edgar',
   lastName: 'Blas Torres',
-  age: 22,
+  age: 21,
   height: 1.60,
   iDeveloper: true,
   },
@@ -38,5 +38,5 @@ const myFriends = { ...friendsInfo};
 console.log(myFriends);
 
 // - Una nueva lista con los objetos de la lista anterior ordenados por edad, de mayor a menor
-const sort = friendsInfo.sort((a,b) => b.height-a.height);
+const sort = friendsInfo.sort((a,b) => b.edad-a.edad);
 console.log(sort);
