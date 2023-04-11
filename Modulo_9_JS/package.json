@@ -1,0 +1,15 @@
+{
+  "name": "modulo_9_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "errores.js",
+  "scripts": {
+    "start": "node exercises/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.8.2"
+  }
+}
